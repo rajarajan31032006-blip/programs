@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<form onsubmit="showMessage();return false;">
+
+<input type="text"
+placeholder="Enter Name"
+required
+autofocus>
+
+<br><br>
+
+<input type="email"
+placeholder="Enter Email"
+required>
+
+<br><br>
+
+<input type="date"
+required>
+
+<br><br>
+
+<select required>
+<option>Workshop</option>
+<option>Seminar</option>
+<option>Conference</option>
+</select>
+
+<br><br>
+
+<textarea
+placeholder="Message">
+</textarea>
+
+<br><br>
+
+<button type="submit">
+Register
+</button>
+
+<br><br>
+
+<output id="result"></output>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Handling</title>
+<script src="script.js"></script>
+</head>
+<body>
+
+Phone:
+<input type="text" id="phone" onblur="validatePhone()">
+
+<br><br>
+
+<select onchange="showFee(this.value)">
+<option value="">Select Event</option>
+<option value="500">Workshop</option>
+<option value="1000">Conference</option>
+</select>
+
+<p id="fee"></p>
+
+<img src="https://via.placeholder.com/150"
+id="img"
+ondblclick="enlargeImage()">
+
+<br><br>
+
+<textarea id="feedback"
+onkeyup="countChars()"></textarea>
+
+<p id="count">0 Characters</p>
+
+<button onclick="confirmSubmit()">
+Submit
+</button>
+
+</body>
+</html>
